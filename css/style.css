@@ -1,0 +1,13 @@
+.main-text img {
+    width: 350px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.info img{
+    width: 140px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+}
