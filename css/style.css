@@ -11,6 +11,7 @@ body{
     height: 200px;
     object-fit: cover;
     border-radius: 25px;
+    overflow: hidden;
 }
 
 .info img{
@@ -33,6 +34,7 @@ body{
 
 .header-text{
     font-size: 24px;
+    font-weight: bold;
 }
 
 a {
@@ -44,7 +46,6 @@ a {
 .subtext,
 .text{
     font-size: 18px;
-    font-weight: 100;
 }
 
 .header-link{
@@ -92,7 +93,7 @@ a {
 .middle{
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .middle .title{
@@ -100,9 +101,29 @@ a {
     font-weight: 900;
     color: #1f2937;
 }
+
+.text{
+    color: grey;
+    margin-top: 10px;
+    width: 140px;
+}
 .container{
     display: flex;
     justify-content: center;
-    gap: 40px;
-    margin-top: 30px;
+    gap: 100px;
+    margin-top: 40px;
+    flex-wrap: wrap;
 }
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quoted{
+    text-indent: 300px;
+}
+
+
