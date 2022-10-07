@@ -120,10 +120,17 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 75px;
 }
 
+.cats{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
 .quoted{
     text-indent: 300px;
+    font-weight: 700;
 }
 
 
